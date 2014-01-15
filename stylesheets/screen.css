@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -79,10 +79,10 @@ body {
   color: #e7e7e7;
   background-size: cover;
   font-family: sans-serif; }
-  /* line 61, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 61, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   body * html {
     font-size: 100%; }
-  /* line 64, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  /* line 64, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
   body html {
     font-size: 16px;
     line-height: 1.5em; }
@@ -395,6 +395,7 @@ h1 {
 
 /* line 286, ../scss/screen.scss */
 .meet-the-authors {
+  position: relative;
   background: #191b1f;
   padding: 15% 0; }
   @media only screen and (min-width: 48em) {
@@ -406,7 +407,7 @@ h1 {
     .meet-the-authors {
       padding: 5% 0; } }
 
-/* line 296, ../scss/screen.scss */
+/* line 297, ../scss/screen.scss */
 .the-authors {
   width: 100%;
   margin-left: auto;
@@ -419,19 +420,19 @@ h1 {
   overflow: hidden;
   *zoom: 1; }
   @media screen and (min-width: 768px) {
-    /* line 296, ../scss/screen.scss */
+    /* line 297, ../scss/screen.scss */
     .the-authors {
       max-width: 768px; } }
   @media screen and (min-width: 880px) {
-    /* line 296, ../scss/screen.scss */
+    /* line 297, ../scss/screen.scss */
     .the-authors {
       max-width: 940px; } }
   @media screen and (min-width: 1200px) {
-    /* line 296, ../scss/screen.scss */
+    /* line 297, ../scss/screen.scss */
     .the-authors {
       max-width: 1200px; } }
 
-/* line 300, ../scss/screen.scss */
+/* line 301, ../scss/screen.scss */
 .author {
   position: relative;
   padding-left: 0.9375em;
@@ -441,14 +442,14 @@ h1 {
   text-align: center;
   margin-top: 5%; }
   @media only screen and (min-width: 48em) {
-    /* line 300, ../scss/screen.scss */
+    /* line 301, ../scss/screen.scss */
     .author {
       position: relative;
       padding-left: 0.9375em;
       padding-right: 0.9375em;
       width: 50%;
       float: left; } }
-  /* line 307, ../scss/screen.scss */
+  /* line 308, ../scss/screen.scss */
   .author .author-image {
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -456,12 +457,12 @@ h1 {
     -o-border-radius: 100%;
     border-radius: 100%;
     margin-bottom: 5px; }
-  /* line 311, ../scss/screen.scss */
+  /* line 312, ../scss/screen.scss */
   .author h3 {
     font-size: 1.75em;
     font-family: 'Merriweather', serif; }
 
-/* line 316, ../scss/screen.scss */
+/* line 317, ../scss/screen.scss */
 .authors-heading {
   padding: 0 0.9375em;
   font-family: "BebasNeueRegular", sans-serif;
@@ -471,16 +472,16 @@ h1 {
   font-size: 2em;
   text-align: center; }
 
-/* line 323, ../scss/screen.scss */
+/* line 324, ../scss/screen.scss */
 .site-footer {
   background: #0e0f11;
   font-size: 0.875em;
   text-align: center;
   padding: 5% 0; }
-  /* line 328, ../scss/screen.scss */
+  /* line 329, ../scss/screen.scss */
   .site-footer .footer-logo {
     width: 50px;
     height: auto; }
-  /* line 332, ../scss/screen.scss */
+  /* line 333, ../scss/screen.scss */
   .site-footer .attribution {
     margin-top: 15px; }

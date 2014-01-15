@@ -284,6 +284,7 @@ h1 {
 }
 
 .meet-the-authors {
+	position:relative;
   background: $black;
   padding: 15% 0;
   @media #{$small} {
