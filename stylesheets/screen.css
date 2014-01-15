@@ -1,0 +1,486 @@
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url("../fonts/BebasNeue-webfont.eot");
+  src: url("../fonts/BebasNeue-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue-webfont.woff") format("woff"), url("../fonts/BebasNeue-webfont.ttf") format("truetype"), url("../fonts/BebasNeue-webfont.svg#BebasNeueRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 61, ../scss/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 64, ../scss/screen.scss */
+html {
+  height: 100%; }
+
+/* line 67, ../scss/screen.scss */
+body {
+  width: 100%;
+  height: 100%;
+  background: #22252a;
+  color: #e7e7e7;
+  background-size: cover;
+  font-family: sans-serif; }
+  /* line 61, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  body * html {
+    font-size: 100%; }
+  /* line 64, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+  body html {
+    font-size: 16px;
+    line-height: 1.5em; }
+
+/* line 76, ../scss/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-bottom: .5em;
+  line-height: 1.25;
+  font-family: 'Merriweather', serif; }
+
+/* line 82, ../scss/screen.scss */
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em; }
+
+/* line 86, ../scss/screen.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 87, ../scss/screen.scss */
+#masthead {
+  border-bottom: 5px #eb614d solid;
+  background: #343941;
+  padding: 0;
+  margin-bottom: 15%; }
+  @media only screen and (min-width: 48em) {
+    /* line 87, ../scss/screen.scss */
+    #masthead {
+      margin-bottom: 10%; } }
+  @media only screen and (min-width: 55em) {
+    /* line 87, ../scss/screen.scss */
+    #masthead {
+      margin-bottom: 5%; } }
+
+/* line 99, ../scss/screen.scss */
+.header-container {
+  padding: 50px 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 75em;
+  overflow: hidden;
+  *zoom: 1; }
+  @media screen and (min-width: 768px) {
+    /* line 99, ../scss/screen.scss */
+    .header-container {
+      max-width: 768px; } }
+  @media screen and (min-width: 880px) {
+    /* line 99, ../scss/screen.scss */
+    .header-container {
+      max-width: 940px; } }
+  @media screen and (min-width: 1200px) {
+    /* line 99, ../scss/screen.scss */
+    .header-container {
+      max-width: 1200px; } }
+
+/* line 103, ../scss/screen.scss */
+.site-header {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
+/* line 107, ../scss/screen.scss */
+.branding {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 10px #eb614d solid;
+  position: relative;
+  width: 295px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 48em) {
+    /* line 107, ../scss/screen.scss */
+    .branding {
+      display: inline-block;
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 50%;
+      float: left; } }
+  /* line 118, ../scss/screen.scss */
+  .branding .site-title {
+    display: inline;
+    margin: 0;
+    line-height: 1;
+    font-family: "BebasNeueRegular", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 48px; }
+  /* line 125, ../scss/screen.scss */
+  .branding .site-title a {
+    color: #e7e7e7;
+    font-size: 48px;
+    line-height: 1; }
+  /* line 130, ../scss/screen.scss */
+  .branding .site-description {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1;
+    font-style: italic;
+    letter-spacing: 0px;
+    margin: 0; }
+
+/* line 139, ../scss/screen.scss */
+.main-navigation {
+  margin-top: 1.875em;
+  display: none; }
+  @media only screen and (min-width: 48em) {
+    /* line 139, ../scss/screen.scss */
+    .main-navigation {
+      display: block; } }
+  /* line 145, ../scss/screen.scss */
+  .main-navigation ul {
+    float: right;
+    list-style: none; }
+    /* line 148, ../scss/screen.scss */
+    .main-navigation ul li {
+      float: left;
+      font-size: 1.125em;
+      font-weight: bold;
+      margin-left: 1.875em; }
+      /* line 153, ../scss/screen.scss */
+      .main-navigation ul li a {
+        color: #e7e7e7;
+        text-decoration: none; }
+
+/* line 160, ../scss/screen.scss */
+.main-container {
+  overflow: hidden;
+  *zoom: 1; }
+  @media only screen and (min-width: 48em) {
+    /* line 162, ../scss/screen.scss */
+    .main-container .big-ol-rock {
+      position: absolute;
+      right: -25%; } }
+
+/* line 170, ../scss/screen.scss */
+.intro-wrap {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 75em;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: hidden;
+  *zoom: 1; }
+  @media screen and (min-width: 768px) {
+    /* line 170, ../scss/screen.scss */
+    .intro-wrap {
+      max-width: 768px; } }
+  @media screen and (min-width: 880px) {
+    /* line 170, ../scss/screen.scss */
+    .intro-wrap {
+      max-width: 940px; } }
+  @media screen and (min-width: 1200px) {
+    /* line 170, ../scss/screen.scss */
+    .intro-wrap {
+      max-width: 1200px; } }
+
+/* line 174, ../scss/screen.scss */
+.intro {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+  padding-bottom: 15%; }
+  @media only screen and (min-width: 48em) {
+    /* line 174, ../scss/screen.scss */
+    .intro {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 50%;
+      float: left;
+      padding-bottom: 10%; } }
+  @media only screen and (min-width: 55em) {
+    /* line 174, ../scss/screen.scss */
+    .intro {
+      padding-bottom: 5%; } }
+  @media only screen and (min-width: 75em) {
+    /* line 174, ../scss/screen.scss */
+    .intro {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 41.66667%;
+      float: left;
+      padding-bottom: 15%; } }
+  /* line 188, ../scss/screen.scss */
+  .intro h1 {
+    font-size: 2em; }
+    @media only screen and (min-width: 48em) {
+      /* line 188, ../scss/screen.scss */
+      .intro h1 {
+        font-size: 5.3125em;
+        margin-bottom: 0;
+        line-height: 1; } }
+    @media only screen and (min-width: 55em) {
+      /* line 188, ../scss/screen.scss */
+      .intro h1 {
+        font-size: 5.9375em; } }
+    @media only screen and (min-width: 75em) {
+      /* line 188, ../scss/screen.scss */
+      .intro h1 {
+        font-size: 7.1875em; } }
+  /* line 202, ../scss/screen.scss */
+  .intro h2 {
+    color: #b5b5b5;
+    font-size: 1.25em; }
+    @media only screen and (min-width: 55em) {
+      /* line 202, ../scss/screen.scss */
+      .intro h2 {
+        font-size: 1.5em; } }
+    /* line 208, ../scss/screen.scss */
+    .intro h2 span {
+      color: #e7e7e7;
+      font-family: "BebasNeueRegular", sans-serif;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-left: 4px solid #eb614d;
+      padding-left: 0.3125em; }
+
+/* line 216, ../scss/screen.scss */
+h1 {
+  font-family: "BebasNeueRegular", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+/* line 222, ../scss/screen.scss */
+#mc-embedded-subscribe-form label {
+  display: none; }
+/* line 225, ../scss/screen.scss */
+#mc-embedded-subscribe-form input[type="text"], #mc-embedded-subscribe-form input[type="email"] {
+  background-color: #343941;
+  font-family: inherit;
+  border: 1px solid #323030;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+  padding: 12px;
+  width: 100%;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-bottom: 22px; }
+  /* line 237, ../scss/screen.scss */
+  #mc-embedded-subscribe-form input[type="text"]:focus, #mc-embedded-subscribe-form input[type="email"]:focus {
+    background: white;
+    outline: none; }
+/* line 242, ../scss/screen.scss */
+#mc-embedded-subscribe-form input[type="submit"] {
+  border: none;
+  background: #eb614d;
+  width: 100%;
+  padding: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1.125em;
+  color: #781b0d; }
+  /* line 252, ../scss/screen.scss */
+  #mc-embedded-subscribe-form input[type="submit"]:hover {
+    cursor: pointer; }
+  /* line 255, ../scss/screen.scss */
+  #mc-embedded-subscribe-form input[type="submit"]:focus {
+    outline: none; }
+  @media only screen and (min-width: 48em) {
+    /* line 242, ../scss/screen.scss */
+    #mc-embedded-subscribe-form input[type="submit"] {
+      width: auto;
+      padding: 16px 24px; } }
+/* line 263, ../scss/screen.scss */
+#mc-embedded-subscribe-form div.mce_inline_error {
+  background: #d35050 !important;
+  font-weight: normal !important;
+  font-family: sans-serif; }
+/* line 268, ../scss/screen.scss */
+#mc-embedded-subscribe-form input.mce_inline_error {
+  border-color: #d35050 !important; }
+/* line 271, ../scss/screen.scss */
+#mc-embedded-subscribe-form #mce-success-response {
+  color: #98d54b;
+  font-family: sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+  line-height: 1.25; }
+
+/* line 281, ../scss/screen.scss */
+#mc-embedded-subscribe-form.form-success input[type="email"], #mc-embedded-subscribe-form.form-success input[type="submit"] {
+  display: none; }
+
+/* line 286, ../scss/screen.scss */
+.meet-the-authors {
+  background: #191b1f;
+  padding: 15% 0; }
+  @media only screen and (min-width: 48em) {
+    /* line 286, ../scss/screen.scss */
+    .meet-the-authors {
+      padding: 10% 0; } }
+  @media only screen and (min-width: 55em) {
+    /* line 286, ../scss/screen.scss */
+    .meet-the-authors {
+      padding: 5% 0; } }
+
+/* line 296, ../scss/screen.scss */
+.the-authors {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 75em;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: hidden;
+  *zoom: 1; }
+  @media screen and (min-width: 768px) {
+    /* line 296, ../scss/screen.scss */
+    .the-authors {
+      max-width: 768px; } }
+  @media screen and (min-width: 880px) {
+    /* line 296, ../scss/screen.scss */
+    .the-authors {
+      max-width: 940px; } }
+  @media screen and (min-width: 1200px) {
+    /* line 296, ../scss/screen.scss */
+    .the-authors {
+      max-width: 1200px; } }
+
+/* line 300, ../scss/screen.scss */
+.author {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 5%; }
+  @media only screen and (min-width: 48em) {
+    /* line 300, ../scss/screen.scss */
+    .author {
+      position: relative;
+      padding-left: 0.9375em;
+      padding-right: 0.9375em;
+      width: 50%;
+      float: left; } }
+  /* line 307, ../scss/screen.scss */
+  .author .author-image {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    margin-bottom: 5px; }
+  /* line 311, ../scss/screen.scss */
+  .author h3 {
+    font-size: 1.75em;
+    font-family: 'Merriweather', serif; }
+
+/* line 316, ../scss/screen.scss */
+.authors-heading {
+  padding: 0 0.9375em;
+  font-family: "BebasNeueRegular", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2em;
+  text-align: center; }
+
+/* line 323, ../scss/screen.scss */
+.site-footer {
+  background: #0e0f11;
+  font-size: 0.875em;
+  text-align: center;
+  padding: 5% 0; }
+  /* line 328, ../scss/screen.scss */
+  .site-footer .footer-logo {
+    width: 50px;
+    height: auto; }
+  /* line 332, ../scss/screen.scss */
+  .site-footer .attribution {
+    margin-top: 15px; }
