@@ -73,6 +73,10 @@ body {
   background-size: cover;
   font-family: sans-serif;
 }
+a, a:visited {
+  color: $mainColor;
+  text-decoration: none;
+}
 h1,h2,h3,h4,h5, h6 {
   font-weight: normal;
   margin-bottom: .5em;
@@ -160,11 +164,15 @@ img { max-width: 100%; height: auto;}
 .main-container {
   @include clearfix();
   .big-ol-rock {
+    max-width: 1500px;
+    width: 100%;
       @media #{$small} {
           position: absolute;
           right: -25%; 
       }      
-     
+     @media #{$x-large} {
+      right: 0;
+    }
   }
 }
 .intro-wrap {
@@ -284,7 +292,6 @@ h1 {
 }
 
 .meet-the-authors {
-	position:relative;
   background: $black;
   padding: 15% 0;
   @media #{$small} {
@@ -299,12 +306,21 @@ h1 {
   @include clearfix();
 }
 .author {
-  @include grid-column(12);
+  display:inline-block;
+  width:50%;
   text-align: center;
   margin-top: 5%;
-  @media #{$small} {
-    @include grid-column(6);
+  margin-right:-4px;
+  min-height:310px;
+  padding:0 1rem;
+  vertical-align:top;
+
+  @media(max-width:480px){
+  	display:block;
+  	margin-right:0;
+  	width:100%;
   }
+
   .author-image {
     @include border-radius(100%);
     margin-bottom: 5px;
