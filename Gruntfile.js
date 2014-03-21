@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         // watch our project for changes
         watch: {
             compass: {
-				files: ['scss/*.{scss,sass}'],
+				files: ['sass/*.{scss,sass}'],
                 tasks: ['compass']
             },
             livereload: {
